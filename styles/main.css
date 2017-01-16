@@ -1,0 +1,13 @@
+#container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#cat-photos div {
+  overflow: hidden;
+  max-height: 90px;
+}
+
+img {
+  max-width: 130px;
+}

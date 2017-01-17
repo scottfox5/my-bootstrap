@@ -1,3 +1,8 @@
+body {
+  font-family: 'Bungee Shade', cursive;
+  background-image: url("https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif");
+}
+
 #container {
   width: 75%;
   margin: 0 auto;
@@ -6,6 +11,7 @@
 #cat-photos div {
   overflow: hidden;
   max-height: 90px;
+  margin-top: 10px;
 }
 
 img {

@@ -7,43 +7,54 @@
     <title>My Bootstrap</title>
     <link rel="stylesheet" href="vendors/bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
   </head>
   <body>
-    <div>
+    <div class="container-fluid">
       <header>
-        <h1>Cats of Leisure</h1>
+        <h1 class="text-center">Cats of Leisure</h1>
       </header>
-      <section id="cat-photos">
-        <div>
-          <img src="images/hawaiian-tourist.jpeg" alt="Cat dressed as a tourist in Hawaii">
+      <section class="row" id="cat-photos">
+        <div id="cat1" class="col-sm-12 col-md-6 col-lg-3">
+          <img class="center-block" src="images/hawaiian-tourist.jpeg" alt="Cat dressed as a tourist in Hawaii">
         </div>
-        <div>
-          <img src="images/leia.jpeg" alt="Cat dressed as Star Wars's Princess Leia">
+        <div id="cat2" class="col-sm-12 col-md-6 col-lg-3">
+          <img class="center-block" src="images/leia.jpeg" alt="Cat dressed as Star Wars's Princess Leia">
         </div>
-        <div>
-          <img src="images/lion.jpeg" alt="Cat dressed as a lion">
+        <div id="cat3" class="col-sm-12 col-md-6 col-lg-3">
+          <img class="center-block" src="images/lion.jpeg" alt="Cat dressed as a lion">
         </div>
-        <div>
-          <img src="images/mario.jpeg" alt="Cat dressed as Mario from Super Mario Bros">
+        <div id="cat4" class="col-sm-12 col-md-6 col-lg-3">
+          <img class="center-block" src="images/mario.jpeg" alt="Cat dressed as Mario from Super Mario Bros">
         </div>
-        <div>
-          <img src="images/seuss.jpeg" alt="Cat dressed as Dr Suess">
+        <div id="cat5" class="col-sm-12 col-md-6 col-lg-3">
+          <img class="center-block" src="images/seuss.jpeg" alt="Cat dressed as Dr Suess">
         </div>
-        <div>
-          <img src="images/why-so-serious.jpeg" alt="Cat dressed as Batman's The Joker">
+        <div id="cat6" class="col-sm-12 col-md-6 col-lg-3">
+          <img class="center-block" src="images/why-so-serious.jpeg" alt="Cat dressed as Batman's The Joker">
         </div>
-        <div>
-          <img src="images/gremlin.jpeg" alt="Cat dressed as a gremlin">
+        <div id="cat7" class="col-sm-12 col-md-6 col-lg-3">
+          <img class="center-block" src="images/gremlin.jpeg" alt="Cat dressed as a gremlin">
         </div>
-        <div>
-          <img src="images/creepy-af.jpeg" alt="Cat that looks like a skeleton">
+        <div id="cat8" class="col-sm-12 col-md-6 col-lg-3">
+          <img class="center-block" src="images/creepy-af.jpeg" alt="Cat that looks like a skeleton">
         </div>
       </section>
       <footer>
-        <div class="">
-        <p>Because cats</p>
-      </div>
-    </footer>
+        <div>
+          <p class="text-center">Because cats</p>
+          <ul class="nav navbar-nav navbar-fixed-top hidden-lg hidden-md">
+            <li><a href="#cat1">Tourist</a></li>
+            <li><a href="#cat2">Princess Leia</a></li>
+            <li><a href="#cat3">Lion</a></li>
+            <li><a href="#cat4">Mario</a></li>
+            <li><a href="#cat5">Dr. Seuss</a></li>
+            <li><a href="#cat6">Joker</a></li>
+            <li><a href="#cat7">Gremlin</a></li>
+            <li><a href="#cat8">Skeleton</a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
